@@ -131,7 +131,7 @@ for (const key of Object.keys(KEY_CHORDS)) {
   input.addEventListener('change', () => {
     stopAll();
     selectedKey = key;
-    selectedChord = null;
+    selectedChord = KEY_CHORDS[key][0];
     renderChords();
   });
   wrapper.append(input, document.createTextNode(key));
