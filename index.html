@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIDI楽器</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <main>
+    <fieldset><legend>キー</legend><div id="keys" class="four"></div></fieldset>
+    <fieldset><legend>コード</legend><div id="chords" class="four"></div></fieldset>
+    <p class="midi-source" role="status">入力MIDIデバイス：<span id="midi-sources"></span></p>
+    <p id="audio-status" role="status"></p>
+  </main>
+</body>
+</html>
